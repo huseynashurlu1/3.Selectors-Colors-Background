@@ -1,0 +1,159 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.p3{
+    font-style: italic;
+}
+#btn2{
+    background-color: red;
+    color: #fff;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 4px solid #000;
+}
+
+.box:first-child {
+    background-color: royalblue;
+    width: 300px;
+}
+
+.heading span{
+    color: seagreen;
+}
+
+
+form + button {
+    background-color: red;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid green;
+    border-radius: 30px;
+}
+
+a:link{
+    color: red;
+}
+
+h1{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    transition: 1s;
+    letter-spacing: 10px;
+}
+
+h1:hover{
+   letter-spacing: 1px;
+}
+
+.btn1{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn1:hover{
+    border-radius: 10px;
+    width: 250px;
+    background-color: salmon;
+}
+
+
+.mc{
+    width: 300px;
+    height: 300px;
+    transition: .7s;
+    border: 5px solid red;
+    border-radius: 100%;
+}
+
+.mc:hover{
+    filter: sepia(1);
+}
+
+
+
+#first{
+    text-align: center;
+    padding: 18rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
+}
+
+#first h1,#second h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+#second{
+    background-image: url(https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    text-align: center;
+    padding: 18rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#third{
+    background-image: url(https://thumbs.dreamstime.com/b/programming-language-black-screen-background-javascript-react-code-programming-language-black-screen-background-180407636.jpg);
+    text-align: center;
+    padding: 18rem 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    background-image: url(https://thumbs.dreamstime.com/b/programming-language-black-screen-background-javascript-react-code-programming-language-black-screen-background-180407636.jpg);
+    text-align: center;
+    padding: 2rem 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+*/
+
+
+#first{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: -1px 3px 12px 18px #bdb1b1;
+    padding: 8rem 0;
+    text-align: center;
+    border: 5px solid #ff6000;
+    background-image: linear-gradient(360deg,#b92b27,#1565C0);
+}
+
+#first h1{
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 5px 5px 5px #fff;
+}

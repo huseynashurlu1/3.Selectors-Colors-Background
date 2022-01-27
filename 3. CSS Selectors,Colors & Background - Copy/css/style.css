@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection{
+    background-color: rgb(238, 147, 0);
+    color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 1px 1px 3px #000;
+    border-radius: 5px;
+}
+
+#First{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    padding: 13rem 0;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+#First h1{
+    color: #212529;
+    font-size: 88px;
+}
+
+#First h3{
+    font-size: 28px;
+    color: #212529;
+    margin-bottom: 60px;
+}
+
+#First a{
+   border: 1px solid #1d809f;
+    color: #1d809f;
+    font-size: 1rem;
+    padding: 20px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .7s;
+}
+
+#First a:hover{
+    background-color: #1d809f;
+    color: #fff;
+}
+
+
+#Second{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#Second h2{
+    font-size: 2rem;
+    color: #212529;
+}
+
+#Second p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #212529;
+}
+
+#Second .second-btn{
+     background-color: #212529;
+     color: #fff;
+     font-size: 1rem;
+     padding: 20px 50px;
+     border-radius: 5px;
+     text-decoration: none;
+     transition: .7s;
+ }
+
+ #Third{
+     text-align: center;
+     background-color: #1d809f;
+     padding: 5rem 0;
+ }
+
+
+ #Third .btn-common{
+     padding: 20px 40px;
+     border-radius: 5px;
+     font-size: 1rem;
+     text-decoration: none;
+ }
+
+ #Third h2{
+     margin-bottom: 40px;
+ }
+
+ #Third .btn1{
+     background-color: #fff;
+     color: #212529;
+     margin-right: 10px;
+ }
+
+ #Third .btn2{
+    background-color: #212529;
+    color: #fff;
+    margin-left: 10px;
+}
